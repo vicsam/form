@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="wrapper" >
+    <article>
+        <h1>Application Form</h1>
+        <h4>Fill in your details</h4>
+    </article>
+    <table>
+        <tr>
+            <th >
+                <p>Firstname </p>
+            </th>
+            <th >
+                <p>Surname </p> 
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" title="Firstname" value="Enter Firstname Here">
+            </td>
+
+            <td>
+                <input type="text" title="Surname" value="Enter Surname Here">
+            </td>
+        </tr>
+        <tr>
+            <th style="text-align: left;">
+                <p>Gender *</p>
+
+            </th>
+            <th>
+                <p style="text-align: left;">Date of Birth *</p>
+
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <form action="">
+                    <input type="text" name="gender" list="genders" title="gender">
+                    <datalist id="genders">
+                        <option value="Male"></option>
+                        <option value="Female"></option>
+                        <option value="Others"></option>
+                    </datalist>
+                </form>
+
+            </td>
+            <td>
+                <input type="date" name="date" id="date" title="date">
+            </td>
+        </tr>
+        <tr>
+            <th style="text-align: left;">
+                <p>Email Address *</p>
+            </th>
+            <th style="text-align: left;">
+                <p>
+                    Educational Level *
+                </p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="email" title="email" value="Enter email address">
+            </td>
+            <td>
+                <input type="text" title="education" list="levels">
+                <datalist id="levels">
+                    <option value="SSCE"></option>
+                    <option value="OND"></option>
+                    <option value="HND"></option>
+                    <option value="BSC"></option>
+                    <option value="MSC"></option>
+                    <option value="PHD"></option>
+
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <th style="text-align: left;">
+                <p>Country  *</p>
+            </th>
+            <th style="text-align: left;">
+                <p>State/City of Residence  *</p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" title="country" list="countries">
+                <datalist id="countries">
+                    <option value="Nigeria"></option>
+                    <option value="Gambia"></option>
+                    <option value="Guinea-Bissau"></option>
+                    <option value="Angola"></option>
+
+                </datalist>
+            </td>
+            <td>
+                <input type="text" title="state" list="states">
+                <datalist id="states">
+                    <option value="Abia"></option>
+                    <option value="Imo"></option>
+                    <option value="Lagos"></option>
+                    <option value="Ogun"></option>
+                    <option value="Osun"></option>
+                </datalist>
+
+            </td>
+        </tr>
+        <tr>
+            <th style="text-align: left;">
+                <p>
+                    Employment Status  *
+                </p>
+            </th>
+            <th style="text-align: left;">
+                <p>
+                    Phone number  *
+                </p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <form action="">
+                    <input type="text" title="employment">
+                </form>
+            </td>
+            <td>
+                <form action="">
+                    <input type="text" title="number">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th style="text-align: left;">
+                <p >Choose School  *</p>
+            </th>
+            <th style="text-align: left;">
+                <p>Choose Course of Study  *</p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <form action="">
+                <input type="text" title="school" list="schools" name="school">
+                <datalist id="schools">
+                    <option value="School of Engineering"></option>
+                    <option value="School of Data"></option>
+                    <option value="School of Product"></option>
+                </datalist>
+            </form>
+            </td>
+            <td>
+                <form action="">
+    
+                <input type="text" title="course" list="courses" name="course">
+                <datalist id="courses">
+                    <option value="Front-end"></option>
+                    <option value="Back-end"></option>
+                    <option value="Cloud Engineering"></option>
+                </datalist>
+            </form>
+            </td>
+        </tr>
+        <tr>
+            <th style="text-align: left;"><p>How did you hear about us?  *</p></th>
+            <th style="text-align: left;"><p>Scholarship/Discount Code <br>(optional)</p></th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" title="hear" list="heard">
+                <datalist id="heard">
+                    <option value="Friend"></option>
+                    <option value="Twitter"></option>
+                    <option value="Facebook"></option>
+                    <option value="LInkedIn"></option>
+                    <option value="Instagram"></option>
+                </datalist>
+
+            </td>
+            <td>
+                <input type="text" title="discount">
+            </td>
+        </tr>
+    </table>
+    <p>By clicking continue, I agree to <a href=""> Terms of Use</a> and acknowledge <br>that i <br>have read the <a href=""> Privacy Policy</a></p>
+<button type="submit" title="submit"  style="height: 30px; width: 350px;" >Proceed</button>
+<p>
+    Already have an account? <a href=""> Sign In</a>
+</p>
+</div>
+
+<section style="align-content: center;">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur reprehenderit ullam quae voluptates magnam saepe repudiandae magni ratione obcaecati illum, dicta voluptatem sed possimus error corporis! Reprehenderit veritatis magnam vel.</p>
+</section>
+
+
+</body>
+
+
+</html>

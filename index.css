@@ -1,0 +1,32 @@
+h1 {
+   height: 10px; 
+}
+
+div {
+    margin:0px ;
+    color: #999999;
+
+}
+
+h4{
+    color: black;
+}
+
+
+p{
+    color: black;
+}
+
+th{
+    text-align: left;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
